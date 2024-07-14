@@ -1,32 +1,70 @@
 # Vite Project
 
-這是一個使用 Vite、Vue 3 和 Vue Router 建立的前端專案，並使用了 Pinia 進行狀態管理，View UI Plus 作為 UI 庫，以及 Vue I18n 進行多國語言支援。
+![image](https://hackmd.io/_uploads/HyMALfNpp.png)
 
-## 目錄
+- [README 目錄](#vite-project)
+  - [系統說明](#系統說明)
+  - [資料夾說明](#資料夾說明)
+  - [測試帳號密碼](#測試帳號密碼)
+  - [在 Local 端的安裝＆運行步驟](#在-local-端的安裝運行步驟)
 
-- [介紹](#介紹)
-- [技術棧](#技術棧)
-- [安裝](#安裝)
-- [使用方法](#使用方法)
-- [文件結構](#文件結構)
-- [貢獻](#貢獻)
-- [授權](#授權)
+## 系統說明
+專案運行方式是使用 `Node.js`、`npm`、`Vue vite`。
 
-## 介紹
+### 核心相依項目（dependencies）
+| :pushpin: 項目 | :label:  版本 |
+| -------- | -------- |
+| pinia | ^2.1.7 |
+| view-ui-plus | ^1.3.18 |
+| vue | ^3.4.29 |
+| vue-i18n | ^10.0.0-beta.3 |
+| vue-router | ^4.0.13 |
 
-此專案展示了如何使用 Vite 作為開發工具，結合 Vue 3 來建立高效的前端應用程式。專案包含基本的文件結構，並設置了多國語言支持。
+### 開發相依項目（devDependencies）
+| :pushpin: 項目 | :label:  版本 |
+| -------- | -------- |
+| @vitejs/plugin-vue | ^5.0.5 |
+| sass | ^1.77.8 |
+| vite | ^5.3.1 |
 
-## 技術棧
+## 資料夾說明
+| :file_folder: 資料夾名稱 | :memo: 說明 |
+| -------- | ------------- |
+| .vscode  | VS Code 設定 |
+| node_modules | Node.js 模組 |
+| public   | 靜態資源 |
+| src      | 源碼文件 |
+| ├── assets | 靜態資源如圖片、樣式等 |
+| │   ├── images | 圖片 |
+| │   ├── style  | 樣式文件 |
+| │   │   ├── base | 基本樣式 |
+| │   │   ├── components | 組件樣式 |
+| │   │   ├── layout | 佈局樣式 |
+| │   │   ├── pages | 頁面樣式 |
+| │   │   ├── utils | 工具樣式 |
+| │   │   └── style.scss | 主樣式文件 |
+| │   └── vue.svg | Vue 標誌 |
+| ├── components | Vue 組件 |
+| ├── locales | 國際化文件 |
+| │   ├── en.json | 英文翻譯 |
+| │   ├── zh.json | 中文翻譯 |
+| │   └── i18n.js | i18n 設定 |
+| ├── router | 路由設定 |
+| │   └── router.js | 路由配置 |
+| ├── stores | 狀態管理 (Pinia) |
+| ├── views | 頁面視圖 |
+| │   └── i18ntest.vue | 多國語言測試頁面 |
+| ├── App.vue | 根組件 |
+| ├── main.js | 入口文件 |
+| .gitignore | Git 忽略文件 |
+| index.html | 主 HTML 文件 |
+| package-lock.json | 鎖定版本的依賴文件 |
+| package.json | 專案依賴和腳本 |
+| README.md | 專案說明文件 |
+| vite.config.js | Vite 配置文件 |
 
-- [Vue 3](https://v3.vuejs.org/)
-- [Vite](https://vitejs.dev/)
-- [Vue Router](https://router.vuejs.org/)
-- [Pinia](https://pinia.vuejs.org/)
-- [View UI Plus](https://www.iviewui.com/)
-- [Vue I18n](https://kazupon.github.io/vue-i18n/)
 
-## 安裝
-
+## 在 Local 端的安裝＆運行步驟
 請依照以下步驟來安裝和運行專案：
 
 1. 克隆這個倉庫
@@ -48,10 +86,6 @@
     yarn install
     ```
 
-## 使用方法
-
-### 開發模式
-
-運行開發伺服器並打開瀏覽器預覽
-```bash
-npm run dev
+4. 進行開發
+    ```bash
+    npm run dev
