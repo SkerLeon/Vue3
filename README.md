@@ -33,23 +33,12 @@
 | ├── assets | 靜態資源如圖片、樣式等 |
 | │   ├── images | 圖片 |
 | │   ├── style  | 樣式文件 |
-| │   │   ├── base | 基本樣式 |
-| │   │   ├── components | 組件樣式 |
-| │   │   ├── layout | 佈局樣式 |
-| │   │   ├── pages | 頁面樣式 |
-| │   │   ├── utils | 工具樣式 |
-| │   │   └── style.scss | 主樣式文件 |
-| │   └── vue.svg | Vue 標誌 |
+| │   └── vue.svg | Vue titleicon |
 | ├── components | Vue 組件 |
-| ├── locales | 國際化文件 |
-| │   ├── en.json | 英文翻譯 |
-| │   ├── zh.json | 中文翻譯 |
-| │   └── i18n.js | i18n 設定 |
+| ├── locales | 多國語言文件 |
 | ├── router | 路由設定 |
-| │   └── router.js | 路由配置 |
 | ├── stores | 狀態管理 (Pinia) |
 | ├── views | 頁面視圖 |
-| │   └── i18ntest.vue | 多國語言測試頁面 |
 | ├── App.vue | 根組件 |
 | ├── main.js | 入口文件 |
 | .gitignore | Git 忽略文件 |
