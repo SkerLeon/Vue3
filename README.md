@@ -31,9 +31,9 @@
 | public   | 靜態資源 |
 | src      | 源碼文件 |
 | ├── assets | 靜態資源如圖片、樣式等 |
-| │   ├── images | 圖片 |
+| │   ├── images | 網站所使用的圖片 |
 | │   ├── style  | 樣式文件 |
-| │   └── vue.svg | Vue titleicon |
+| │   └── vue.svg | Vue title icon |
 | ├── components | Vue 組件 |
 | ├── locales | 多國語言文件 |
 | ├── router | 路由設定 |
