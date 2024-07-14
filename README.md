@@ -1,7 +1,4 @@
 # Vite Project
-
-![image](https://hackmd.io/_uploads/HyMALfNpp.png)
-
 - [README 目錄](#vite-project)
   - [系統說明](#系統說明)
   - [資料夾說明](#資料夾說明)
